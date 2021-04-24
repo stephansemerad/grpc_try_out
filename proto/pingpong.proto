@@ -4,10 +4,10 @@ service PingPongService {
     rpc ping (Ping) returns (Pong) {}
 }
 
-message Ping{
+message Ping {
     int32 count = 1;  
 }
 
-message Pong{
+message Pong {
     int32 count = 1;
 }
